@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hugo Kuznicki — AI Automation &amp; Trading Tools</title>
+  <meta name="description" content="Hugo Kuznicki builds AI automation and trading tools in public — local LLM apps, market scanners, and data systems. Available for hire." />
+  <meta name="author" content="Hugo Kuznicki" />
+  <meta name="theme-color" content="#0a0b0f" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hugo Kuznicki — AI Automation &amp; Trading Tools" />
+  <meta property="og:description" content="Building AI automation &amp; trading tools in public." />
+  <meta property="og:url" content="https://kuznickicapital-ship-it.github.io/personal-site/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@Kuznickihugo" />
+  <meta name="twitter:title" content="Hugo Kuznicki — AI Automation &amp; Trading Tools" />
+  <meta name="twitter:description" content="Building AI automation &amp; trading tools in public." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0b0f'/%3E%3Ctext x='50' y='68' font-size='56' font-family='monospace' font-weight='700' text-anchor='middle' fill='%237c6cff'%3EH%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__mark">HK</span>
+        <span class="nav__name">Hugo Kuznicki</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="https://github.com/kuznickicapital-ship-it" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--solid" href="#contact">Hire me</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <main id="top">
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow"><span class="status-dot"></span>Building in public · Available for work</p>
+      <h1 class="hero__title">
+        Hugo Kuznicki
+      </h1>
+      <p class="hero__tagline">Building <span class="grad">AI automation</span> &amp; <span class="grad">trading tools</span> in public.</p>
+      <p class="hero__lead">
+        I design and ship practical automation systems — local LLM apps, market
+        scanners, and data pipelines that run fast, run private, and earn their keep.
+        Real tools, shipped end-to-end, documented in the open.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--solid btn--lg" href="#contact">Hire me</a>
+        <a class="btn btn--outline btn--lg" href="#work">See my work</a>
+        <a class="btn btn--ghost btn--lg" href="https://github.com/kuznickicapital-ship-it" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>4+</strong><span>shipped projects</span></li>
+        <li><strong>100%</strong><span>local-first builds</span></li>
+        <li><strong>Python · JS</strong><span>core stack</span></li>
+      </ul>
+    </div>
+  </section>
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">// selected work</span>
+        <h2 class="section__title">Projects, shipped</h2>
+        <p class="section__sub">Each of these runs end-to-end. Built solo, documented in public.</p>
+      </div>
+
+      <div class="cards">
+
+        <!-- Market Scanner -->
+        <article class="card">
+          <a class="card__shot" href="https://github.com/kuznickicapital-ship-it/market-scanner" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://raw.githubusercontent.com/kuznickicapital-ship-it/market-scanner/main/docs/screenshots/dashboard.png" alt="Market Scanner dashboard screenshot" onerror="this.closest('.card__shot').classList.add('card__shot--ph');this.remove();" />
+            <span class="card__ph-label">[SCREENSHOT]</span>
+          </a>
+          <div class="card__body">
+            <div class="card__top">
+              <h3 class="card__title">Market Scanner</h3>
+              <a class="card__link" href="https://github.com/kuznickicapital-ship-it/market-scanner" target="_blank" rel="noopener" aria-label="Market Scanner on GitHub">↗</a>
+            </div>
+            <p class="card__desc">A fast, local market screener that pulls daily OHLCV data, computes technical signals, and surfaces opportunities in a sortable dashboard with sparklines and per-ticker charts.</p>
+            <ul class="tags">
+              <li>Python</li><li>Flask</li><li>yfinance</li><li>pandas</li><li>vanilla JS</li>
+            </ul>
+            <div class="card__foot">
+              <span class="badge badge--live">Public</span>
+              <a class="card__cta" href="https://github.com/kuznickicapital-ship-it/market-scanner" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Content Studio -->
+        <article class="card">
+          <a class="card__shot" href="https://github.com/kuznickicapital-ship-it/content-studio" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://raw.githubusercontent.com/kuznickicapital-ship-it/content-studio/main/docs/screenshots/ui.png" alt="Content Studio UI screenshot" onerror="this.closest('.card__shot').classList.add('card__shot--ph');this.remove();" />
+            <span class="card__ph-label">[SCREENSHOT]</span>
+          </a>
+          <div class="card__body">
+            <div class="card__top">
+              <h3 class="card__title">Content Studio</h3>
+              <a class="card__link" href="https://github.com/kuznickicapital-ship-it/content-studio" target="_blank" rel="noopener" aria-label="Content Studio on GitHub">↗</a>
+            </div>
+            <p class="card__desc">A local web app that drafts LinkedIn and X posts on demand — streamed live from your own Ollama models. No cloud, no API keys, zero cost per post.</p>
+            <ul class="tags">
+              <li>Python</li><li>FastAPI</li><li>Ollama</li><li>SSE</li><li>local LLM</li>
+            </ul>
+            <div class="card__foot">
+              <span class="badge badge--live">Public</span>
+              <a class="card__cta" href="https://github.com/kuznickicapital-ship-it/content-studio" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+        <!-- Content Dashboard -->
+        <article class="card">
+          <a class="card__shot card__shot--ph" href="https://github.com/kuznickicapital-ship-it/content-dashboard" target="_blank" rel="noopener">
+            <span class="card__ph-label">[SCREENSHOT]</span>
+          </a>
+          <div class="card__body">
+            <div class="card__top">
+              <h3 class="card__title">Content Dashboard</h3>
+              <a class="card__link" href="https://github.com/kuznickicapital-ship-it/content-dashboard" target="_blank" rel="noopener" aria-label="Content Dashboard on GitHub">↗</a>
+            </div>
+            <p class="card__desc">A production board for a faceless short-form video channel — tracks every video from script → clips → voiceover → assembled → posted, with one-click copy into ElevenLabs, Kling, and CapCut.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>workflow</li>
+            </ul>
+            <div class="card__foot">
+              <span class="badge badge--live">Public</span>
+              <a class="card__cta" href="https://github.com/kuznickicapital-ship-it/content-dashboard" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Apex Wallet (private case study) -->
+        <article class="card card--study">
+          <a class="card__shot card__shot--ph card__shot--study">
+            <span class="card__ph-label">[CASE STUDY]</span>
+          </a>
+          <div class="card__body">
+            <div class="card__top">
+              <h3 class="card__title">Apex Wallet</h3>
+              <span class="card__lock" aria-label="Private repository">🔒</span>
+            </div>
+            <p class="card__desc">A rules-governed trading wallet: it ingests signals, validates each against a hard-coded risk doctrine, and trades — paper by default, live only as a deliberate, multi-step action. The rules engine is a seatbelt for aggressive strategies.</p>
+            <ul class="tags">
+              <li>Python</li><li>risk engine</li><li>ccxt</li><li>backtesting</li>
+            </ul>
+            <div class="card__foot">
+              <span class="badge badge--private">Private · Case study</span>
+              <a class="card__cta card__cta--muted" href="#contact">Ask for a walkthrough →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <!-- ============ ABOUT ============ -->
+  <section class="section section--alt" id="about">
+    <div class="container about">
+      <div class="about__left">
+        <span class="section__kicker">// about</span>
+        <h2 class="section__title">AI-automation builder, working in the open</h2>
+        <p>
+          I'm Hugo — I build AI-automation and trading/data systems, end to end.
+          My focus is practical software that does real work: local-first LLM apps,
+          market scanners, and the data pipelines that feed them.
+        </p>
+        <p>
+          I prefer tools that run on your own machine — fast, private, and free of
+          per-call API costs. I ship in public, document as I go, and care about
+          clean interfaces as much as the engine underneath.
+        </p>
+        <p>
+          Right now I'm available for AI-automation work. If you have a workflow
+          that's begging to be automated, or a data problem that needs a sharp tool,
+          let's talk.
+        </p>
+      </div>
+      <aside class="about__right">
+        <div class="panel">
+          <div class="panel__row"><span>Focus</span><strong>AI automation · trading tools</strong></div>
+          <div class="panel__row"><span>Stack</span><strong>Python · FastAPI · Flask · JS</strong></div>
+          <div class="panel__row"><span>AI</span><strong>Local LLMs · Ollama · SSE</strong></div>
+          <div class="panel__row"><span>Data</span><strong>pandas · numpy · yfinance</strong></div>
+          <div class="panel__row"><span>Approach</span><strong>Local-first · build in public</strong></div>
+          <div class="panel__row"><span>Status</span><strong class="ok">Open to work</strong></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section__head">
+        <span class="section__kicker">// work with me</span>
+        <h2 class="section__title">How I can help</h2>
+        <p class="section__sub">Fixed-scope AI-automation engagements. Pricing below is placeholder — easy to edit.</p>
+      </div>
+
+      <div class="services">
+        <article class="svc">
+          <div class="svc__icon">⚡</div>
+          <h3>Automation Sprint</h3>
+          <p>A single painful workflow, automated end-to-end — scoped, built, and handed over with docs.</p>
+          <ul class="svc__list">
+            <li>Discovery + scope call</li>
+            <li>One working automation</li>
+            <li>Docs &amp; handover</li>
+          </ul>
+          <div class="svc__price">From <strong>$X,XXX</strong><span> · fixed price</span></div>
+          <a class="btn btn--outline btn--block" href="#contact">Start a sprint</a>
+        </article>
+
+        <article class="svc svc--feature">
+          <div class="svc__tag">Most popular</div>
+          <div class="svc__icon">🤖</div>
+          <h3>Local LLM App</h3>
+          <p>A custom local-first AI app — content generation, internal copilots, document tools — running on your own models.</p>
+          <ul class="svc__list">
+            <li>Custom UI + API</li>
+            <li>Runs on local Ollama / your stack</li>
+            <li>Zero per-call API cost</li>
+          </ul>
+          <div class="svc__price">From <strong>$X,XXX</strong><span> · fixed price</span></div>
+          <a class="btn btn--solid btn--block" href="#contact">Build my app</a>
+        </article>
+
+        <article class="svc">
+          <div class="svc__icon">📈</div>
+          <h3>Trading / Data Tooling</h3>
+          <p>Market scanners, signal pipelines, dashboards, and risk tooling — built to your strategy and risk rules.</p>
+          <ul class="svc__list">
+            <li>Data ingestion + signals</li>
+            <li>Dashboard or CLI</li>
+            <li>Paper-first, rules-governed</li>
+          </ul>
+          <div class="svc__price">From <strong>$X,XXX</strong><span> · fixed price</span></div>
+          <a class="btn btn--outline btn--block" href="#contact">Discuss a tool</a>
+        </article>
+      </div>
+      <p class="services__note">Not sure which fits? <a href="#contact">Tell me what you're trying to automate</a> and I'll point you at the right scope.</p>
+    </div>
+  </section>
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--alt" id="contact">
+    <div class="container contact">
+      <div class="contact__head">
+        <span class="section__kicker">// contact</span>
+        <h2 class="section__title">Let's build something</h2>
+        <p class="section__sub">The fastest way to reach me is email. I'm also active on X and LinkedIn.</p>
+        <a class="btn btn--solid btn--lg" href="mailto:kuznickicapital@gmail.com">kuznickicapital@gmail.com</a>
+      </div>
+
+      <div class="links">
+        <a class="link" href="mailto:kuznickicapital@gmail.com">
+          <span class="link__ico">✉</span>
+          <span class="link__txt"><strong>Email</strong>kuznickicapital@gmail.com</span>
+        </a>
+        <a class="link" href="https://www.linkedin.com/in/hugo-kuznicki/" target="_blank" rel="noopener">
+          <span class="link__ico">in</span>
+          <span class="link__txt"><strong>LinkedIn</strong>Hugo Kuznicki</span>
+        </a>
+        <a class="link" href="https://x.com/Kuznickihugo" target="_blank" rel="noopener">
+          <span class="link__ico">𝕏</span>
+          <span class="link__txt"><strong>X / Twitter</strong>@Kuznickihugo</span>
+        </a>
+        <a class="link" href="https://github.com/kuznickicapital-ship-it" target="_blank" rel="noopener">
+          <span class="link__ico">⌥</span>
+          <span class="link__txt"><strong>GitHub</strong>kuznickicapital-ship-it</span>
+        </a>
+        <a class="link link--soon" href="#contact">
+          <span class="link__ico">up</span>
+          <span class="link__txt"><strong>Upwork</strong>Profile coming soon</span>
+        </a>
+        <a class="link link--soon" href="#contact">
+          <span class="link__ico">fv</span>
+          <span class="link__txt"><strong>Fiverr</strong>Profile coming soon</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark">HK</span>
+        <span>Hugo Kuznicki</span>
+      </div>
+      <p class="footer__tag">Building AI automation &amp; trading tools in public.</p>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Hugo Kuznicki · Built &amp; deployed in public.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
